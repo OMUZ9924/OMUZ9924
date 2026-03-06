@@ -26,11 +26,11 @@ I build **Graph Neural Networks** and **Deep Learning** pipelines for **satellit
 
 | Project | Description |
 |---------|-------------|
-| 🏙️ **UrbanGraphSAGE** | Building footprint extraction from Sentinel-2 using GraphSAGE — Algiers case study |
-| 🛰️ **GeoAI Pipeline** | End-to-end Sentinel-2 preprocessing → CNN/GNN segmentation → evaluation |
-| 🔄 **Urban Change Detection** | Multi-temporal change detection with CNNs and interactive dashboards |
-| 🤖 **LLM RAG Demo** | PDF/Markdown ingestion with FAISS indexing and retrieval-augmented synthesis |
-| 🎯 **PEFT Fine-tuning** | LoRA/QLoRA adapters for small language models on classification tasks |
+| 🏙️ [**UrbanGraphSAGE**](https://github.com/OMUZ9924/UrbanGraphSAGE) | Graph Neural Network for building footprint extraction from Sentinel-2 — Algiers case study |
+| 🛰️ [**sentinel2-geoai-pipeline**](https://github.com/OMUZ9924/sentinel2-geoai-pipeline) | End-to-end Sentinel-2 preprocessing → U-Net segmentation → evaluation pipeline |
+| 🔄 [**urban-change-detection**](https://github.com/OMUZ9924/urban-change-detection) | Siamese U-Net for bi-temporal change detection with Streamlit dashboard |
+| 🤖 [**rag-document-qa**](https://github.com/OMUZ9924/rag-document-qa) | RAG system with FastAPI, FAISS vector search & sentence-transformers |
+| 🗺️ [**algiers-building-density**](https://github.com/OMUZ9924/algiers-building-density) | Interactive building density heatmap with OSM + Sentinel-2 NDBI |
 
 ### 🏆 Highlights
 
