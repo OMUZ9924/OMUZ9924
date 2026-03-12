@@ -16,9 +16,11 @@ I build **Graph Neural Networks** and **Deep Learning** pipelines for **satellit
 ### 🔧 Tech Stack
 
 **Languages:** Python · SQL · Git · Linux  
-**ML/DL:** PyTorch · TensorFlow · scikit-learn  
-**Architectures:** GNNs (GAT, GraphSAGE) · U-Net · DeepLabv3+ · SegFormer · Transformers  
-**Geospatial:** GeoPandas · rasterio · GDAL · QGIS · ArcGIS  
+**ML/DL:** PyTorch · PyTorch Lightning · TensorFlow · scikit-learn  
+**Architectures:** GNNs (GAT, GraphSAGE) · U-Net · DeepLabv3+ · SegFormer · Vision Transformers · Semantic Hashing  
+**GeoAI:** TerraTorch · TorchGeo · GeoPandas · rasterio · GDAL · QGIS  
+**Foundation Models:** Prithvi · TerraMind · SatMAE · ScaleMAE  
+**Domain Adaptation:** Adversarial UDA · Cross-Modal Alignment (Optical/SAR)  
 **Tools:** Docker · GitHub Actions · Jupyter · Power BI · Tableau  
 **NLP/LLM:** RAG (FAISS) · LoRA/QLoRA · PEFT  
 
@@ -27,6 +29,8 @@ I build **Graph Neural Networks** and **Deep Learning** pipelines for **satellit
 | Project | Description |
 |---------|-------------|
 | 🏙️ [**UrbanGraphSAGE**](https://github.com/OMUZ9924/UrbanGraphSAGE) | Graph Neural Network for building footprint extraction from Sentinel-2 — Algiers case study |
+| 🧠 [**terratorch-building-segmentation**](https://github.com/OMUZ9924/terratorch-building-segmentation) | Fine-tuning Geospatial Foundation Models (Prithvi, TerraMind) for building segmentation with TerraTorch |
+| 🛰️ [**universal-latent-constellation**](https://github.com/OMUZ9924/universal-latent-constellation) | Cross-modal semantic hashing (GraphSAGE + Domain Adaptation) for zero-downlink satellite constellation awareness — ESA Phi-Lab concept |
 | 🛰️ [**sentinel2-geoai-pipeline**](https://github.com/OMUZ9924/sentinel2-geoai-pipeline) | End-to-end Sentinel-2 preprocessing → U-Net segmentation → evaluation pipeline |
 | 🔄 [**urban-change-detection**](https://github.com/OMUZ9924/urban-change-detection) | Siamese U-Net for bi-temporal change detection with Streamlit dashboard |
 | 🤖 [**rag-document-qa**](https://github.com/OMUZ9924/rag-document-qa) | RAG system with FastAPI, FAISS vector search & sentence-transformers |
@@ -50,6 +54,9 @@ I build **Graph Neural Networks** and **Deep Learning** pipelines for **satellit
 ### 🌱 Currently
 
 - 📝 Publishing GNN research (MSc thesis, FOSS4G 2026)
+- 🧠 Fine-tuning **Geospatial Foundation Models** (Prithvi, TerraMind) using TerraTorch
+- 🛰️ Building **Universal Latent Constellation** — cross-modal semantic hashing for on-board satellite AI (ESA Phi-Lab concept)
+- 🤝 Contributing to [**TerraTorch**](https://github.com/terrastackai/terratorch) open-source ecosystem
 - 🔎 Seeking a **PhD position** in GeoAI / Spatial Machine Learning in Europe
 - 📚 Attending summer schools: EEML, ICVSS, ProbAI
 
